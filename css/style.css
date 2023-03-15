@@ -1,20 +1,20 @@
 html {
     font-family: sans-serif;
-    background: #ffc600;
+    background: #382f98;
 }
 
 .inbox {
     max-width: 400px;
     margin: 50px auto;
-    background: white;
+    background: #63b222;
     border-radius: 5px;
-    box-shadow: 10px 10px 0 rgba(0,0,0,0.1);
+    box-shadow: 10px 10px 0 rgb(161, 138, 3);
 }
 
 .item {
     display: flex;
     align-items: center;
-    border-bottom: 1px solid #F1F1F1;
+    border-bottom: 1px solid #000000;
 }
 
 .item:last-child {
@@ -22,7 +22,7 @@ html {
 }
 
 input:checked + p {
-    background: #F9F9F9;
+    background: #b22222;
     text-decoration: line-through;
 }
 
@@ -38,5 +38,5 @@ p {
     font-family:'helvetica neue';
     font-size: 20px;
     font-weight: 200;
-    border-left: 1px solid #D1E2FF;
+    border-left: 1px solid #000000;
 }
